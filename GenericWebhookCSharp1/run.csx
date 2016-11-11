@@ -58,6 +58,7 @@ public static async Task<object> Run(HttpRequestMessage req, TraceWriter log)
 }
 
 // actual one sent webhook
+// part of subscription was deleted because it's irrelevant here
 {
    "Timestamp":"2016-11-10T22:30:36.2847383Z",
    "EventType":"SubscriptionPayload",
@@ -66,50 +67,6 @@ public static async Task<object> Run(HttpRequestMessage req, TraceWriter log)
       "ServerAuditUri":"http://temuri.org//#/configuration/audit?projects=Projects...",
       "BatchProcessingDate":"2016-11-10T22:29:44.8158084+00:00",
       "Subscription":{
-         "Id":"Subscriptions-1",
-         "Name":"NatchSandboxProduction",
-         "Type":0,
-         "IsDisabled":false,
-         "EventNotificationSubscription":{
-            "Filter":{
-               "Users":[
-
-               ],
-               "Projects":[
-                  "Projects-81"
-               ],
-               "Environments":[
-                  "Environments-1"
-               ],
-               "EventGroups":[
-
-               ],
-               "EventCategories":[
-
-               ],
-               "Tenants":[
-
-               ],
-               "Tags":[
-
-               ]
-            },
-            "EmailTeams":[
-
-            ],
-            "EmailFrequencyPeriod":"01:00:00",
-            "EmailDigestLastProcessed":null,
-            "WebhookURI":"https://octopuswebhook.azurewebsites.net/api/GenericWebhookCSharp1?code=rg...",
-            "WebhookTeams":[
-
-            ],
-            "WebhookLastProcessed":"2016-11-10T22:29:14.7619861+00:00"
-         },
-         "Links":{
-            "Self":{
-
-            }
-         }
       },
       "Event":{
          "Id":"Events-16201",
