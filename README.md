@@ -1,4 +1,7 @@
 # AzureFunction-OctopusToMicrosoftTeams
+
+See the blog post at http://blog.deltacode.be/2016/11/17/azure-functions-octopus-deploy-and-microsoft-teams-channel/
+
 Code for an Azure Function that:
 - accepts a payload sent by Octopus Deploy (via subscriptions) and 
 - posts information to a Microsoft Teams channel (0365 web hook).
